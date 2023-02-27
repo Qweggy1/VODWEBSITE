@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+/* colour pallette. 
+#BA9EFF
+#FF1BF6
+#FFA9FC
+#05FF5A
+#94FFB8
+#000000
+#9D9D9D
+#00E0FF
+#97F2FF
+#510AFF */
+
+*{
+    font-family: 'Rowdies', cursive;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+.main-font-color {
+    color: #97F2FF;
+}
+
+h1 {
+    font-size: 40px;
+    color: #FF1BF6;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 30%;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+}
+
+p {
+    font-size: 20px;
+    color: #00E0FF;
+}
+
+#navbar {
+    background-color: #000000;
+    height: 100;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: #FFA9FC;
+    font-size: 40;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00E0FF;
+    font-weight: bolder;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+  /*submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #94FFB8;
+    color: #FFA9FC;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  /*mouse over the submit button */
+input[type=submit]:hover {
+    background-color: #FF1BF6;
+}
+
+  /*background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #00E0FF;
+    padding: 20px;
+}
+
+#color {
+    color: #FF1BF6;
+}
+/* 
+#social {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%
+} */
